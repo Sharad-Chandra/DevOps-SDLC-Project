@@ -1,0 +1,8 @@
+## Mysql database and user creation and adding privileges to the user:  
+sudo apt install mysgl-server -y
+sudo systemctl start mysql 
+## Login into mysql server, create a database, user & add privileges to that user #mysql -u root -p
+mysqI > create database sonar,
+mysql > create user'sonar' identified by 'sonar mysql > grant all on sonar" to 'sonar'@'%;
+mysql > grant all on sonar.* to 'sonar' @'localhost identified by 'sonar mysql > flush privileges,
+mysql > exit
