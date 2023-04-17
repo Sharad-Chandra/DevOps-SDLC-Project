@@ -1,4 +1,4 @@
-# Welcome to my ApplicationDeployment-Project ☁️🙋‍
+# Welcome to my DevOps-SDLC-Project ☁️🙋‍
 
 # Explanation of Project: 
 In this project, the deployment of a web application to a production server is being done following the Software Development Life Cycle and utilizing DevOps tools. The first step in this process is using a Terraform script to build AWS EC2 instances. This is a more efficient method compared to building the backend on the AWS console, as it can be automated and saves time and effort.
