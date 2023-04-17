@@ -78,5 +78,9 @@ On the production server, I've set up Prometheus to keep track of the system-lev
 I have configured grafana dashboard for cpu and memory utilization on application server as per the given threshold limit.
 <img width="1429" alt="Screenshot 2023-04-17 at 3 11 23 PM" src="https://user-images.githubusercontent.com/64432661/232599262-b807d766-ce67-465c-8759-b1f6e94375ac.png">
 
+## ElasticSearch
+On the production server, I've installed Elasticsearch and configured Metricbeat to transmit data to Elasticsearch. This enables us to examine application logs and scrutinize the data in greater detail using the Kibana dashboard.
+
+<img width="1439" alt="Screenshot 2023-04-17 at 3 21 25 PM" src="https://user-images.githubusercontent.com/64432661/232601282-5c8371b2-00e4-497d-91df-770a1665c440.png">
 
 
