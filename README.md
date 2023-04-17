@@ -67,3 +67,16 @@ later i have created a database, user and added privilages to that user.
 ### SonarQube runs on port 9000
 <img width="1156" alt="Screenshot 2023-04-17 at 2 45 12 PM" src="https://user-images.githubusercontent.com/64432661/232594160-17dfa7e8-9a6d-4233-84bf-2681793ec60c.png">
 
+## Nexus Artifact Repo:
+I have setup nexus repository on t2.micro and configured it into jenkins pipeline. I have created a private repository on nexus for to store the code backup after successful deployment.
+<img width="1438" alt="Screenshot 2023-04-17 at 2 58 41 PM" src="https://user-images.githubusercontent.com/64432661/232596839-48f7e60e-3286-4b56-abdf-8fbb86d833d4.png">
+
+## Prometheus and Grafana:
+On the production server, I've set up Prometheus to keep track of the system-level application insights. NordExporter generates a TCP/IP port on the corresponding system and presents its metric data to Grafana, allowing for real-time monitoring of the system's status.
+
+<img width="1215" alt="Screenshot 2023-04-17 at 3 10 59 PM" src="https://user-images.githubusercontent.com/64432661/232599186-fb564b09-235a-4438-b6fb-bb65b908eb62.png">
+I have configured grafana dashboard for cpu and memory utilization on application server as per the given threshold limit.
+<img width="1429" alt="Screenshot 2023-04-17 at 3 11 23 PM" src="https://user-images.githubusercontent.com/64432661/232599262-b807d766-ce67-465c-8759-b1f6e94375ac.png">
+
+
+
