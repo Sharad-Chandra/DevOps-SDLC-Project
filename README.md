@@ -13,6 +13,7 @@ To monitor the logs of the production server where the application is deployed, 
 
 Finally, Nginx is used as a reverse proxy to hide the IP address of the production server on which the application is running. This provides an additional layer of security and helps keep the server safe from any malicious attacks.
 
+
 In conclusion, this project takes a comprehensive approach to deploying a web application on a production server, utilizing a wide range of DevOps tools to ensure efficient deployment, effective monitoring, and high-level security. The use of DevOps tools ensures that the deployment process is streamlined, and issues can be quickly identified and resolved.
 
 
@@ -50,3 +51,19 @@ sudo apt install wget
 ```bash
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-5.6.7.zip
 ```
+```bash
+unzip sonarqube-5.6.7.zip
+```
+Sonarqube default database is Mysql, so i have installed mysql on the server.
+```bash
+sudo apt install mysql-server -y
+```
+```bash
+sudo systemctl start mysql
+```
+later i have created a database, user and added privilages to that user.
+<img width="800" alt="Screenshot 2023-04-17 at 2 42 25 PM" src="https://user-images.githubusercontent.com/64432661/232593549-dda4121f-7b9e-4dc2-9ecc-ba236ca41bee.png">
+
+### SonarQube runs on port 9000
+<img width="1156" alt="Screenshot 2023-04-17 at 2 45 12 PM" src="https://user-images.githubusercontent.com/64432661/232594160-17dfa7e8-9a6d-4233-84bf-2681793ec60c.png">
+
